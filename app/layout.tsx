@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description: "Mern-Stack Developer with node.js express.js react.js next.js",
   icons: {
     icon: {
-      url: "/images/Scar.png",
+      url: "/public/images/Scar.png",
       type: "image/png",
       sizes: "32x32",
     },

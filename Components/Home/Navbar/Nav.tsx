@@ -40,7 +40,7 @@ const Nav = ({ openNav }: Props) => {
                     width={100} 
                     height={100} 
                     alt='logo' 
-                    className='w-[80px] h-[80px]'
+                    className='w-[100px] h-[100px] my-6'
                 />
                 {/* Nav links */}
                 <div className='flex items-center space-x-10 text-white' >

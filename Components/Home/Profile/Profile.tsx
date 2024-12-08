@@ -32,7 +32,7 @@ const Profile = () => {
                 {/* Images */}
                 <div className='ms-auto hidden lg:block rounded-[3rem] border-[3.5px] border-blue-950 overflow-x-hidden'>
                     <Image 
-                        src={'/Images/YoussefPhoto.jpg'} 
+                        src={'/images/YoussefPhoto.jpg'} 
                         width={500} height={500} 
                         alt={BaseInfo.name}
                     />

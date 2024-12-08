@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Sora } from "next/font/google";
 import "./globals.css";
+import ResponsiveNave from "@/Components/Home/Navbar/ResponsiveNave";
 
 const font = Sora({
   weight: ['100', '200', '300', '400', '400', '500', '600', '700', '800'],
@@ -10,6 +11,13 @@ const font = Sora({
 export const metadata: Metadata = {
   title: "Youssef Saleh - Portfolio",
   description: "Mern-Stack Developer with node.js express.js react.js next.js",
+  icons: {
+    icon: {
+      url: "/images/Scar.png",
+      type: "image/png",
+      sizes: "32x32",
+    },
+  }
 };
 
 export default function RootLayout({
@@ -22,6 +30,7 @@ export default function RootLayout({
       <body
         className={font.className}
       >
+        <ResponsiveNave />
         {children}
       </body>
     </html>

@@ -73,7 +73,33 @@ export const servicesData = [
   },
 ];
   
-export const projectData = [];
+export const projectData = [
+  {
+    id: 1,
+    image: "/images/p1.png",
+    url: "https://youssf-mohamed-saleh-portfolio.vercel.app/",
+  },
+  {
+    id: 2,
+    image: "/images/p2.png",
+    url: "https://sumer-dashboard.vercel.app/",
+  },
+  {
+    id: 3,
+    image: "/images/p3.png",
+    url: "https://locom-frontend-app.vercel.app/",
+  },
+  {
+    id: 4,
+    image: "/images/p4.png",
+    url: "https://a3maly-web.vercel.app/",
+  },
+  {
+    id: 5,
+    image: "/images/p5.png",
+    url: "https://a3maly-dashboard-two.vercel.app/",
+  }
+];
   
 export const skillsData = [
   {

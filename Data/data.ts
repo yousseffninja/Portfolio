@@ -9,7 +9,7 @@ export const BaseInfo = {
   
   
 export const aboutInfo = {
-    title: "v",
+    title: "Driven by MERN: Passionately Building the Web, One App at a Time",
     description:
       "Dynamic and detail-oriented MERN Stack Developer with 1 year of experience in designing, developing, and deploying scalable web applications. Proficient in crafting interactive user interfaces using React.js and building robust backends with Node.js and Express.js. I am skilled in database design and management with MongoDB and am adept at implementing RESTful APIs solutions. Demonstrated ability to collaborate in Agile teams, write clean and reusable code, and optimize applications for performance and scalability. Passionate about solving complex problems and continuously improving user experiences with modern web technologies.",
     client: "10+",

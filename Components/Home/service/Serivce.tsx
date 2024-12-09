@@ -3,6 +3,7 @@ import SectionHeader from "@/Components/Helper/SectionHeader";
 import {servicesData} from "@/Data/data";
 import ServiceCard from "@/Components/Home/service/ServiceCard";
 
+
 const Serivce = () => {
     return (
         <div className='py-16 bg-[#0f0715]' >

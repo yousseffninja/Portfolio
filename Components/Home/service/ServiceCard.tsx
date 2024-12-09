@@ -4,15 +4,16 @@ import Tilt from 'react-parallax-tilt';
 import Image from "next/image";
 
 type Props = {
-    id: number,
-    title: string,
-    description: string,
-    icon: string,
+    service: {
+        id: number,
+        title: string,
+        description: string,
+        icon: string,
+    }
 }
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-expect-error
-const ServiceCard = ({service}: Props) => {
+const ServiceCard = ({service} : Props) => {
     return (
         <Tilt className='shadow-2xl p-6 rounded-lg bg-[#814ced]'>
             <Image

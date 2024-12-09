@@ -19,7 +19,7 @@ const Project = () => {
                                 <Image
                                     src={project?.image}
                                     alt="ProjectImage"
-                                    width={500}
+                                    width={1000}
                                     height={1000}
                                     className='rounded-lg'
                                 />

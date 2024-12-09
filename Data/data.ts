@@ -147,7 +147,7 @@ export const skillsData = [
   {
     id: 8,
     title: "Java",
-    image: "/images/python.svg",
+    image: "/images/java.svg",
     percent: "70%",
   },
   {

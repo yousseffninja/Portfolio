@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Sora } from "next/font/google";
 import "./globals.css";
 import ResponsiveNave from "@/Components/Home/Navbar/ResponsiveNave";
+import Footer from "@/Components/Home/Footer/Footer";
 
 const font = Sora({
   weight: ['100', '200', '300', '400', '400', '500', '600', '700', '800'],
@@ -32,6 +33,7 @@ export default function RootLayout({
       >
         <ResponsiveNave />
         {children}
+      <Footer />
       </body>
     </html>
   );

@@ -14,6 +14,7 @@ const Footer = () => {
                 />
             </div>
             <div className='flex items-center flex-wrap justify-center space-x-10 space-y-4 text-white font-bold'>
+               <div></div>
                 <div>Home</div>
                 <div>Services</div>
                 <div>Projects</div>

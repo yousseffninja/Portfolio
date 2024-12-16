@@ -3,6 +3,8 @@ import { Sora } from "next/font/google";
 import "./globals.css";
 import ResponsiveNave from "@/Components/Home/Navbar/ResponsiveNave";
 import Footer from "@/Components/Home/Footer/Footer";
+import ScrollToTop from "@/Components/Helper/ScrollToTop";
+import AnimatedCursor from "react-animated-cursor";
 
 const font = Sora({
   weight: ['100', '200', '300', '400', '400', '500', '600', '700', '800'],
@@ -27,13 +29,29 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className='custom-scrollbar'>
       <body
         className={font.className}
       >
+      <div className='hidden md:block'>
+            <AnimatedCursor
+                innerSize={10}
+                outerSize={35}
+                innerScale={2}
+                outerScale={2}
+                outerAlpha={0}
+                innerStyle={{
+                    backgroundColor: "white"
+                }}
+                outerStyle={{
+                    border: "3px solid white",
+                }}
+            />
+      </div>
         <ResponsiveNave />
         {children}
       <Footer />
+      <ScrollToTop />
       </body>
     </html>
   );

@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const Profile = () => {
   return (
-    <div className='w-full pt-[4vh] md:pt-[12vh] h-screen bg-[#0f0715] overflow-hidden relative' >
+    <div className='w-full pt-[14vh] md:pt-[12vh] h-screen bg-[#0f0715] overflow-hidden relative ' >
         <div className='flex justify-center flex-col w-4/5 mx-auto'>
             <div className='grid grid-cols-1 lg:grid-cols-2 items-center gap-12' >
                 {/* Content */}

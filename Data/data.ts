@@ -4,7 +4,7 @@ export const BaseInfo = {
     description:
       "A passionate and detail-oriented Full Stack Web Developer specializing in the MERN stack. With expertise in building scalable, dynamic, and user-centric web applications, I thrive on turning complex challenges into innovative solutions. Dedicated to delivering high-quality code, seamless user experiences, and robust back-end systems.",
     profilePic: "/images/YoussefPhoto.jpg",
-    resume: "https://drive.usercontent.google.com/download?id=1GJ4cn6F5a6xnt3czkLmwt-iH7xE_ubht&export=download&authuser=0&confirm=t&uuid=ca32537e-541e-40c3-917b-5c545a6f731c&at=APvzH3ol-JGgx081vI92OJx8QOx3:1733639965965",
+    resume: "https://drive.usercontent.google.com/download?id=1FUS2VDQ_DQO-ZWH7MMyxWo63g43FeV3H&export=download&authuser=0&confirm=t&uuid=c7c62340-bb35-4ea2-bd47-9b45d09db4ac&at=APvzH3obrtlIYEOWW7c6FQJwLaiU:1734982640122",
   };
   
   
